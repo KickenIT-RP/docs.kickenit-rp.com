@@ -1,15 +1,13 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
+  "index": "Homepage",
+  "rules": "City Rules",
+  "penalcode": "City Penal Code",
+  "businesses": "City Businesses",
+  "gangs": "City Gangs",
   "contact": {
-    "title": "Contact ↗",
+    "title": "Join KickenIT Roleplay ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://discord.gg/kickenitrp",
     "newWindow": true
   }
 }

@@ -1,6 +1,6 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
-import { useRouter } from 'next/router'
+import React from "react";
+import { DocsThemeConfig, useConfig } from "nextra-theme-docs";
+import { useRouter } from "next/router";
 
 // https://github.com/overextended/overextended.github.io/blob/main/theme.config.tsx#L6-L37
 function useHead() {
@@ -63,6 +63,6 @@ const config: DocsThemeConfig = {
   primaryHue: { dark: 200, light: 200 },
   head: useHead,
   useNextSeoProps: useNextSeoProps,
-}
+};
 
-export default config
+export default config;
