@@ -1,6 +1,7 @@
 {
   "index": "Homepage",
   "rules": "City Rules",
+  "government": "Government Info",
   "penalcode": "City Penal Code",
   "businesses": "City Businesses",
   "gangs": "City Gangs",
