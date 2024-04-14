@@ -1,9 +1,5 @@
 name: Deploy to GitHub Pages
 
-permissions:
-  pages: write
-  contents: write
-
 on:
   push:
     branches: ["main"]
@@ -15,10 +11,13 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-jobs:
+jobs: 
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      contents: write
     steps:
       - uses: actions/checkout@v2
 
