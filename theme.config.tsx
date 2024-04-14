@@ -7,7 +7,7 @@ function useHead() {
   const { asPath } = useRouter();
   const { frontMatter, title } = useConfig();
   const url = `https://docs.kickenit-rp.com${asPath}`;
-  const description = frontMatter.description || "Documentation for KickenIT Roleplay";
+  const description = frontMatter.description || "KickenIT Roleplay";
 
   return (
     <>
@@ -31,7 +31,7 @@ function useNextSeoProps() {
 
   return {
     titleTemplate: `${title} - ${
-      rawTitle === category ? "Documentation" : category.replace(/(^\w|\s\w)/g, (m) => m.toUpperCase())
+      rawTitle === category ? "City Information" : category.replace(/(^\w|\s\w)/g, (m) => m.toUpperCase())
     }`,
   };
 }
@@ -50,9 +50,6 @@ const config: DocsThemeConfig = {
       KickenIT Roleplay
     </div>
   ),
-  project: {
-    link: "https://github.com/KickenIT-RP",
-  },
   chat: {
     link: "https://discord.gg/kickenitrp",
   },
