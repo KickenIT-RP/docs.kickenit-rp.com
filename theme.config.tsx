@@ -60,6 +60,8 @@ const config: DocsThemeConfig = {
   primaryHue: { dark: 200, light: 200 },
   head: useHead,
   useNextSeoProps: useNextSeoProps,
+  editLink: { component: null },
+  feedback: { content: null },
 };
 
 export default config;

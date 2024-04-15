@@ -2,9 +2,24 @@
   "index": "Homepage",
   "rules": "City Rules",
   "government": "Government Info",
-  "penalcode": "City Penal Code",
-  "businesses": "City Businesses",
-  "gangs": "City Gangs",
+  "penalcode": {
+    "title": "Penal Code",
+    "theme": {
+      "layout": "full"
+    }
+  },
+  "businesses": {
+    "title": "Businesses",
+    "theme": {
+      "layout": "full"
+    }
+  },
+  "gangs": {
+    "title": "Gangs",
+    "theme": {
+      "layout": "full"
+    }
+  },
   "contact": {
     "title": "Join KickenIT Roleplay ↗",
     "type": "page",
