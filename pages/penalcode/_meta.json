@@ -1,0 +1,14 @@
+{
+    "hunting": {
+        "title": "Hunting And Fishing",
+        "theme": {
+          "layout": "full"
+        }
+      },
+      "weapons": {
+        "title": "Weapons Information",
+        "theme": {
+          "layout": "full"
+        }
+      }
+}
